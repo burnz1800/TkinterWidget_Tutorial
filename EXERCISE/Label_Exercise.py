@@ -12,7 +12,8 @@ window.title('Tkinter Label Widget')
 window.geometry('400x400')
 
 # This is our label
-output_label = ttk.Label(master = window, text = "This is Burnz' Code", font = "Calibri 24 bold", foreground = "red", justify = "center")
+
+output_label = ttk.Label(master = window, text = "This is Burnz' Code", font = "Calibri 24 bold", foreground = "red", justify = "center", underline = 15)
 
 
 # Packs elements in frames ready to push onto form/window
